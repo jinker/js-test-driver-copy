@@ -1,0 +1,1 @@
+jstestdriver.FileResult=function(b,d,c,a){this.file=b;this.success=d;this.message=c;this.elapsed=a};jstestdriver.FileResult.prototype.toString=function(){return["FileResult(",this.file.fileSrc,this.success,this.message,")"].join("")};

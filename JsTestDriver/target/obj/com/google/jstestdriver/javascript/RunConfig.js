@@ -1,0 +1,1 @@
+goog.provide("jstestdriver.runConfig");jstestdriver.runConfig={debug:false};

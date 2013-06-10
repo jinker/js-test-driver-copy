@@ -1,0 +1,1 @@
+var jstestdriver={};jstestdriver.plugins={};jstestdriver.plugins.async={};var goog=window.goog||{provide:function(a){},require:function(a){}};

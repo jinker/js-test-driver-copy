@@ -1,0 +1,1 @@
+goog.provide("jstestdriver.TestResult");goog.require("jstestdriver");jstestdriver.TestResult=function(h,c,b,e,d,g,a,f){this.testCaseName=h;this.testName=c;this.result=b;this.message=e;this.log=d;this.time=g;this.data=a||{};this.argument=f};jstestdriver.TestResult.RESULT={PASSED:"passed",ERROR:"error",FAILED:"failed"};

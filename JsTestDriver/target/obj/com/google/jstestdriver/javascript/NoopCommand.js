@@ -1,0 +1,1 @@
+jstestdriver.NoopCommand=function(a,b){this.streamStop_=a;this.streamStop_=a;this.getBrowserInfo_=b};jstestdriver.NoopCommand.prototype.sendNoop=function(){this.streamStop_(new jstestdriver.Response(jstestdriver.RESPONSE_TYPES.NOOP,"{}",this.getBrowserInfo_()))};

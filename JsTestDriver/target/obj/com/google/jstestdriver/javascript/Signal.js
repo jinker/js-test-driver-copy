@@ -1,0 +1,1 @@
+jstestdriver.Signal=function(a){this.value_=a};jstestdriver.Signal.prototype.get=function(){return this.value_};jstestdriver.Signal.prototype.set=function(a){this.value_=a};
