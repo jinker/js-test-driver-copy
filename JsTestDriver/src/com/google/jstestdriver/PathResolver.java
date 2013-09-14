@@ -116,8 +116,10 @@ public class PathResolver {
         }
         // Get all files for the current FileInfo. This will return one file
         // if the FileInfo doesn't represent a glob
-        String[] expandedFileNames =
-            expandGlob(absoluteDir.getAbsolutePath(), file.getName(), absoluteDir);
+//        String[] expandedFileNames =
+//            expandGlob(absoluteDir.getAbsolutePath(), file.getName(), absoluteDir);
+        String[] expandedFileNames = new String[]{file.getName()};
+
         if (expandedFileNames == null) {
           continue;
         }
